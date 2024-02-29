@@ -22,7 +22,6 @@ fn main() {
                 Err(_) => continue,
             };
     
-
         //snip above
         
         println!("You guessed: {guess}");
