@@ -43,6 +43,8 @@ fn plus_one(x: Option<i32>) -> Option<i32> {
 
 // we must list out every case (for example removing 'None' above will cause compiler to yell)
 // what if we had 100+ values to match? how can we avoid only calling out a few cases?
+// note will fail to run/build with this code here
+/*
 match dice_roll {
     3 => add_fancy_hat(),
     7 => remove_fancy_hat(),
@@ -55,4 +57,5 @@ match dice_roll {
     7 => remove_fancy_hat(),
     _ => reroll(),
 }
+ */
 
