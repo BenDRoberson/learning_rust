@@ -39,6 +39,7 @@ fn main() {
 
     // array of 5 3's
     let a = [3; 5];
+
 }
 
 const THREE_HOURS_IN_SECONDS: u32 = 60 * 60 * 3;
